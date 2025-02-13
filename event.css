@@ -651,17 +651,84 @@ h2{
     margin-top:0;
 }
 
-@media (min-width: 600px) {
-    .button1{
-        padding-top:19%;
-        padding-right:11%;
+
+body {
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+      padding: 10px;
     }
-    div{
-        display:block;
-        unicode-bidi:isolate;
+  
+    .navbar ul {
+      flex-direction: column;
     }
+  
+    .four img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .background {
+      height: auto;
+    }
+  
+    .nine, .ten {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nine img, .ten img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .button1 {
+      padding-top: 10%;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+      padding: 5px;
+    }
+  
+    .navbar ul {
+      padding: 0;
+    }
+  
+    .four img {
+      height: auto;
+      width: 100%;
+    }
+  
+    .background {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .nine, .ten {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nine img, .ten img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .button1 {
+      padding-top: 5%;
+    }
+  }
+  
     
-}
 
 
 
