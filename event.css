@@ -703,9 +703,13 @@ body {
       padding: 0;
     }
   
-    .four img {
+    .four{
       height: auto;
       width: 100%;
+      margin-top:0;
+    }
+    .four{
+        display:flex;
     }
   
     .background {
