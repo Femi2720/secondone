@@ -651,8 +651,17 @@ h2{
     margin-top:0;
 }
 
-
-
+@media (min-width: 600px) {
+    .button1{
+        padding-top:19%;
+        padding-right:11%;
+    }
+    div{
+        display:block;
+        unicode-bidi:isolate;
+    }
+    
+}
 
 
 
