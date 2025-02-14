@@ -5,13 +5,14 @@
         <title>DREAM BIG</title>
         <link rel="stylesheet" href="event.css">
         <link rel="icon" href="images/emojij.jpg">
-       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
     
 
-<div class="navbar" >
+<div class="navbar" id="mytopnavbar">
+ 
     <div class="one">
         <img src="images/emojij.jpg" width="50px" height="50px">
         &nbsp;&nbsp;&nbsp;<h1>DREAM BIG</h1>
@@ -20,8 +21,20 @@
    <li><a href="About.html">About</a></li>
    <li><a href="Speakers.html">Speakers</a></li>
    <li><a href="sponsers.html">Sponsers</a></li>
-   
+   <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a></li>
   </ul>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mytopnavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+</script>
  <div class="two"><button>Login</button></div>
  <div class="three"><button>Register</button></div>
 </div>
@@ -48,10 +61,11 @@
   <div class="seven">
     <h5>It seems like you're referring to the  Dream Big 2025 event. This event, organized by the Department of Computer Engineering at DBCE College of Engineering ,Pennsylvania, USA ,aims to connect students with industry professionals and promote awareness about innovation in industrial practices</h5> 
   </div>
-  </div class="eight">
+  </div>
+  <div class="eight" style="font-size:13px; padding-top:20px;">
   <h6>Join the list now to get the lowest price when registration opens. Plus, be the first to know all the big announcements, get first access to the best hotels, and so much more.</h6>
 <center>
-<div style="padding-top:20px"><button>Join community</button></div>
+<div style="padding-top:30px"><button>Join community</button></div>
 </center>
 </div>
 <hr>
@@ -81,37 +95,36 @@ The event will feature insightful sessions by industry leaders like Sri Charan a
                     <div class="para2">
                      
                       <div>
-                        <h5>Hackathon</h5>
+                       
                             <img src="images/hack.jpg"  width="250px" height="250px" class="image">
     
                       </div>
   
                     <div>
-                       <h5>Start pitch</h5>
                           <img src="images/pitch.jpg" width="250px" height="250px" class="image">
     
                      </div>
   
                      <div>
-                        <h5>Product lanch</h5>
+                        
                           <img src="images/product launch.jpg" width="250px" height="250px" class="image">
     
                       </div>
   
                       <div>
-                       <h5>Tech talk</h5>
+                      
                             <img src="images/teck talk.jpg" width="250px" height="250px" class="image">
     
                        </div>
   
                       <div>
-                         <h5>Workshop</h5>
+                      
                             <img src="images/workshop.avif" width="250px" height="250px"class="image">
     
                       </div>
   
                       <div>
-                         <h5>Award ceremony</h5>
+                         
                            <img src="images/award.jpg" width="250px" height="250px" class="image">
     
                       </div>
