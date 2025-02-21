@@ -557,6 +557,7 @@ footer h4{
 .sponsor{
     background-image: linear-gradient(white,lightblue,white);
     height:auto;
+    width:auto;
 }
 .sponsor1 img{
     margin-top:7%;
@@ -670,206 +671,47 @@ footer h4{
    
    
 @media screen and (max-width: 768px) {
-        .navbar li,a{
-            font-size:15px;
-           padding-right:5px;
-            margin-left:0;
-        }
-        .two,.three{
-            display:none;
-            
-        }
         
-        .sponsor1 img{
-            width:60px;
-            height:60px;
-            margin-top:90px;
-        }  
-        .sponsor1 h2{
-            font-size:25px;
+        .four p{
+            margin-top:65px;
+            width:auto;
         }
-        .sponsor2 h3{
-            font-size:27px;
-            margin-left:130px;
-        }
-        .sponsor2 h5{
-            font-size:17px;
+        .four p{
+            font-size:12px;
+            padding-top:1px;
+            padding-bottom:1px;
         }
 
-.sponsor2 h6{
-    font-size:20px;
+.sponsor1{
+    display:none;
 }
+.sponsor2 h3{
+    font-size:22px;
+    margin-top:96px;
+    padding-top:10px;
+    margin-left:0;
 
-.sponsor3 img{
-    width:110px;
-    height:110px;
-    margin-left:6px;
+}  
+.sponsor2 h6{
+    display:flex;
+    font-size:16px;
+    margin-left:0;
+    padding-left:0;
+}
+.sponsor2 h5{
+    font-size:19px;
+}
+ .sponsor3 img{
+    width:60px;
+    height:60px;
+    margin-left:7px;
     column-gap: 0;
     row-gap: 0;
+ }  
+ body footer h3,h4{ 
+   margin-bottom:10px;
+   font-size:14px;
+}
+ 
 }
 
-.last5 h3,h4{
-    font-size:15px;
-}
-.four img{
-    height:700px;
-    width:auto;
-}
-.five img{
-    width:50px;
-    height:50px;
-}
-.five h2{
-    font-size:25px;
-}       
-
-.six h3{
-    font-size:24px;
-    
-}
-
-.seven h5{
-    font-size:20px;
-}
-
-.nine img{
-    width:150px;
-    height:180px;
-}
-.nine h6{
-    font-size:15px;
-    position:sticky;
-}
-.ten img{
-    width:150px;
-    height:180px;
-}
-.ten h6{
-    font-size:15px;
-    margin-left:0;
-}
-.button1{
-   display:none;
-    
-}
-.para2 img{
-    width:120px;
-    height:120px;
-    
-   padding-left:0;
-   padding-top:40px;
-   padding-right:10px;
-   
-}
-
-.para1 h2{
-    font-size:23px;
-}
-.para2 h5{
-    display:none;
-   
-}
-
-.eight h6{
-    display:none;
-}
-.eight button{
-    margin-top:150px;
-    padding-top:2px;
-}
-
-.last4 h5{
-   font-size:17px;
-}
-.last4 h3{
-    font-size:13px;
-}
-.last1 img{
-    display:none;
-}
-.last2 h5,.last3 h5{
-    font-size:17px;
-}
-.last2 h5{
-    padding-right:9px;
-   
-}
-.last2 a{
-    margin-top:20px;
-  font-size:15px;
-  
-}
-.last3 h4{
-    font-size:15px;
-}
-.last4 h3{
-    font-size:15px;
-}
-.eleven img{
-    width:120px;
-    height:120px;
-    margin-left:0;
-}
-
-.name h3{
-    font-size:17px;
-}
-.name2 h2{
-    font-size:15px;
-    margin-left:0;
-    padding-top:10px;
-    padding-left:28px;
-}
-
-.about6 h5{
-    font-size:25px;
-}
-.about1 img{
-    margin-top:80px;
-}
-.about6 h4{
-    font-size:20px;
-}
-#image{
-    width:auto;
-    height:300px;
-}
-.container ol,li{
-    font-size:17px;
-    padding-left:0;
-    padding-right:0;
-}
-
-.topic h3{
-    font-size:25px;
-}
-.about2 span{
-    font-size:20px;
-}
-.about1 h3{
-    margin-left:50px;
-    font-size:24px;
-}
-.speaker img{
-    width:120px;
-    height:120px;
-    margin-left:0;
-}
-.speaker h3{
-    font-size:18px;
-}
-
-.speaker h5{
-    font-size:15px;
-}
-.sp1 h6{
-    font-size:20px;
-}
-.sp1 h3{
-    font-size:26px;
-    margin-left:90px;
-}
-.sp1 img{
-    margin-top:90px;
-}
-}
