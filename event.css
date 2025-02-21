@@ -671,9 +671,16 @@ footer h4{
    
    
 @media screen and (max-width: 768px) {
-        
+        body header h1{
+            font-size:15px;
+            margin-left:10px;
+        }
+        body header img{
+            width:20px;
+            height:20px;
+        }
         .four p{
-            margin-top:65px;
+            margin-top:55px;
             width:auto;
         }
         .four p{
@@ -682,36 +689,48 @@ footer h4{
             padding-bottom:1px;
         }
 
-.sponsor1{
-    display:none;
+       .sponsor1{
+             display:none;
 }
-.sponsor2 h3{
-    font-size:22px;
-    margin-top:96px;
-    padding-top:10px;
-    margin-left:0;
+      .sponsor2 h3{
+        font-size:22px;
+        margin-top:85px;
+       padding-top:10px;
+        margin-left:0;
 
 }  
-.sponsor2 h6{
-    display:flex;
-    font-size:16px;
-    margin-left:0;
-    padding-left:0;
+       .sponsor2 h6{
+            display:flex;
+           font-size:16px;
+            margin-left:0;
+            padding-left:0;
 }
-.sponsor2 h5{
-    font-size:19px;
+        .sponsor2 h5{
+           font-size:19px;
 }
- .sponsor3 img{
-    width:60px;
-    height:60px;
-    margin-left:7px;
-    column-gap: 0;
-    row-gap: 0;
+    .sponsor3 img{
+              width:60px;
+             height:60px;
+              margin-left:7px;
+              column-gap: 0;
+              row-gap: 0;
  }  
- body footer h3,h4{ 
-   margin-bottom:10px;
-   font-size:14px;
+       body footer h3,h4{ 
+          margin-bottom:10px;
+          font-size:14px;
 }
- 
+.onto{
+    display:hide;
+}
+ body nav ul li {
+    font-size:10px;
+    margin-left:0;
+    padding-left:2px;
+   
+ }
+ .sponsor{
+    width:100%;
+    height:100%;
+ }
 }
 
