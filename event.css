@@ -680,7 +680,7 @@ footer h4{
             height:20px;
         }
         .four p{
-            margin-top:55px;
+            margin-top:51px;
             width:auto;
         }
         .four p{
@@ -689,7 +689,7 @@ footer h4{
             padding-bottom:1px;
         }
 
-       .sponsor1{
+       .sponsor1,.sp1 h2,.sp1 img,.about1 img,.about1 h2{
              display:none;
 }
       .sponsor2 h3{
@@ -721,7 +721,7 @@ footer h4{
           font-size:14px;
 }
 .onto{
-    display:hide;
+    display:none;
 }
  body nav ul li {
     font-size:10px;
@@ -729,10 +729,99 @@ footer h4{
     padding-left:2px;
    
  }
- .sponsor{
-    background-color: linear-gradient(white,lightblue);
-    width:100%;
-    height:100%;
- }
+.sp1 h3{
+    font-size:20px;
+    margin-top:87px;
+    margin-left:0;
+}
+.sp1 h6{
+    font-size:16px;
+    margin-left:0;
+    padding-left:0;
+}
+.speaker img{
+    width:50px;
+    height:50px;
+    column-gap:0;
+    row-gap:0;
+    margin-left:0;
+    padding-left:0;
+    padding-right:0;
+}
+.speaker h3{
+    font-size:14px;
+    margin-left:0;
+    margin-left:0;
+}
+.speaker h5{
+    font-size:12px;
+    margin-left:0;
+    padding-left:0;
+}
+.about1 h3{
+    margin-top:85px;
+    font-size:20px;
+    margin-left:0;
+}
+.about1 h5,.about1 h6{
+    font-size:16px;
+    margin-left:10px;
+
+}
+.about2 span{
+    font-size:20px;
+}
+.container ol li{
+    font-size:14px;
+    margin-left:0;
+    padding-left:0;
+}
+.container{
+    column-gap:0;
+    row-gap:0;
+}
+.topic h3{
+    font-size:20px;
+}
+#image{
+    width:300px;
+    height:300px;
+}
+.eleven img{
+      width:60px;
+      height:60px;
+      margin-left:0px;
+      padding-left:0;
+}
+.name h3{
+ font-size:17px;
+ margin-left:7px;
+ padding-left:0;
+}
+.name2 h2{
+    font-size:14px;
+    margin-left:0;
+    padding-left:0;
+
+}
+.about6 h5,.about6 h4{
+    font-size:20px;
+}
+button{
+    font-size:10px;
+    padding-top:1px;
+    margin-top:1px;
+    margin-bottom:9px;
+
+}
+
+
+
+
+
+
+
+
+
 }
 
