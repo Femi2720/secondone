@@ -228,12 +228,7 @@ h2{
     padding-top:4%;
     
  }
- .para ol,li{
-    color:darkblue;
-    display:flex;
-    flex-flow: column;
-    
- }
+ 
  
  .para1 h2{
     color:rgb(9, 48, 85);
@@ -249,7 +244,7 @@ h2{
       grid-template-columns: auto auto auto;
       column-gap:5px;
       row-gap:5px;
-      padding-left:110px;
+     padding-left:30px;
       padding-top:40px;
       
 
@@ -807,9 +802,9 @@ footer h4{
     padding-left:0;
 
 }
-.about6 h5,.about6 h4{
-    font-size:20px;
-}
+
+   
+
 button{
     font-size:10px;
     padding-top:1px;
@@ -817,14 +812,80 @@ button{
     margin-bottom:9px;
 
 }
+.five img {
+    width:40px;
+    height:40px;
+}
+.five h2,.para1 h2,.about6 h5,.about6 h4{
+    font-size:20px;
+}
+.six h3{
+    font-size:18px;
+    margin-left:0;
+    padding-left:0;
+}
+.seven h5{
+    font-size:15px;
+}
+.eight h6{
+    font-size:14px;
+    margin-top:160px;
+}
+.nine img,.ten img{
+      width:90px;
+      height:200px;
+      
 
-
-
-
-
-
-
+}
+.nine h6,.ten h6{
+      font-size:14px;
+      
+}
+.nine h6{
+    margin-top:0;
+    padding-top:0;
+}
+.ten h6{
+    padding-left:0;
+    margin-left:0;
+}
+.button1{
+    margin-top:280px;
+}
+.ten img{
+    margin-left:0;
+    padding-top:70px;
+}
+.para2 img{
+    margin-left:0;
+    padding-left:0;
+    width:70px;
+    height:70px;
+    padding-top:30px;
+}
+.last1,.last2,.last3{
+    display:grid;
+    grid-template-rows: auto auto auto;
+    margin-left:0;
+    column-gap:0;
+    row-gap:0;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:2px;
+}
+.last2 h5,.last3 h5,.last4 h5{
+    font-size:15px;
+    padding-left:0;
+    padding-right:0;
+}
+.last2 a,.last3 h4,.last4 h3{
+    font-size:12px;
+}
 
 
 }
+   
+
+
+
 
