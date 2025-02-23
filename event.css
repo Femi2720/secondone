@@ -677,18 +677,14 @@ footer h4{
             width:20px;
             height:20px;
         }
-        .four{
-            width:auto;
-        }
-        .four p{
-            margin-top:45px;
-            width:auto;
-        }
+
+        
         .four p{
             font-size:12px;
             padding-top:1px;
             padding-bottom:1px;
             position:fixed;
+            margin-top:45px;
         }
 
        .sponsor1,.sp1 h2,.sp1 img,.about1 img,.about1 h2{
@@ -781,6 +777,7 @@ footer h4{
     font-size:14px;
     margin-left:0;
     padding-left:0;
+    width:50%;
 }
 .container{
     column-gap:0;
