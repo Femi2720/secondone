@@ -678,8 +678,7 @@ footer h4{
             height:20px;
         }
         .four p{
-            margin-top:51px;
-            width:auto;
+            margin-top:45px;
         }
         .four p{
             font-size:12px;
@@ -726,6 +725,10 @@ footer h4{
     margin-left:0;
     padding-left:2px;
    
+ }
+ .para3{
+    background-color: linear-gradient(lightblue,white,lightblue);
+    height:auto;
  }
 .sp1 h3{
     font-size:20px;
@@ -858,10 +861,11 @@ button{
 }
 .para2 img{
     margin-left:0;
-    padding-left:0;
+    padding-bottom:0;
     width:70px;
     height:70px;
     padding-top:30px;
+    padding-bottom:0;
 }
 .last1,.last2,.last3{
     display:grid;
