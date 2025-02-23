@@ -1,11 +1,11 @@
 
 .navbar li,ul,a{
-    position:fixed;
     overflow: hidden;
     font-size:20px;
     font-family:cursive;
     font-weight: 800; 
-    text-decoration:none; 
+    text-decoration:none;
+
 }
 
 body nav{
@@ -27,30 +27,26 @@ h1{
     margin-left:60px;
     position:fixed;
 }
+
 .onto{
     display:flex;
     position:fixed;
 }
-header{
+.one{
     display:flex;
     margin-top:4px;
 }
-header img{
+.one img{
     position:fixed;
 }
 
 .navbar ul,li{
     display:flex;
-    padding-right:40px;
     margin-top:0px;
     float:left;
-    padding-left:20px;
     padding-bottom:3px;
     margin-left:140px;
-
 }
-
-
 a{
     color:darkblue;
 
@@ -322,22 +318,27 @@ h2{
  .name{
     display:flex;
  }
- .name h3{
-     padding-left:11%;
-     font-size:35px;
-     color:rgb(10, 82, 84);
-     margin-bottom:0;
- }
+ .name li{
+     color:rgb(1, 11, 11);
+     margin-left:0;
+    padding-right:90px;
+    font-weight: 600;
+    padding-left:170px;
+    font-size:25px;
+}
+
  .name2{
     display:flex;
  }
- .name2 h2{
-    font-size:20px;
-    padding-left:10%;
-    margin-top:0;
-    margin-left:80px;
-    padding-right:70px;
 
+ .name2 li{
+    font-weight:500px;
+    padding-right:100px;
+    padding-top:0;
+    margin-top:0;
+    padding-left:70px;
+    font-size:20px;
+    color:rgb(0, 0, 12);
  }
  .para4{
     background-image:linear-gradient(white,white,lightblue,white);
@@ -501,34 +502,20 @@ footer h4{
     padding-left:30px;
     font-weight: 600;
 }
-.about3 ,.about4,.about5,ol,li{
+.container ol,li{
     color:rgb(60, 58, 97);
     font-size:24px;
     font-weight: 500;
     font-family: serif;
     font-style:italic
 }
-.about3 ol,li{
-    display:flex;
-    flex-flow: column;
-}
-.about4 ol,li{
-    display:flex;
-    flex-flow: column;
-}
-.about4 {
-    margin-left:5px;
-    margin-top:0;
-}
-.about5 ol,li{
-    display:flex;
-    flex-flow: column;
-}
-.container{
-    margin-top:30px;
+
+.container ol,li{
     display:grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto auto;
+    column-gap: 2px;
+    row-gap:2px;
 }
 .about6 h4{
     margin-top:5%;
