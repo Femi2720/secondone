@@ -654,28 +654,21 @@ footer h4{
    
    
 @media screen and (max-width: 768px) {
-   
-        body header h1{
-            font-size:15px;
-            margin-left:10px;
-        }
-        body header img{
-            width:20px;
-            height:20px;
-        }
-        body nav {
-            float:none;
-        }
-
+   .one h1,.one img{
+    position:absolute;
+   }
+       
         
         .four p{
             font-size:12px;
-            padding-top:1px;
-            padding-bottom:1px;
-            position:fixed;
-            margin-top:45px;
+            padding-top:0px;
+            padding-bottom:0px;
+            position:absolute;
+            margin-top:55px;
         }
-
+.onto{
+    position:absolute;
+}
        .sponsor1,.sp1 h2,.sp1 img,.about1 img,.about1 h2{
              display:none;
 }
@@ -696,10 +689,11 @@ footer h4{
            font-size:19px;
 }
     .sponsor3 img{
-              width:60px;
-             height:60px;
-              margin-left:7px;
+              width:80px;
+             height:80px;
+              margin-left:19px;
               column-gap: 0;
+              padding-left:0;
               row-gap: 0;
  }  
        body footer h3,h4{ 
@@ -707,15 +701,10 @@ footer h4{
           margin-bottom:10px;
           font-size:14px;
 }
-.two,.three{
-    display:none;
+.two{
+    margin-left:80%;
 }
- body nav ul li {
-    font-size:10px;
-    margin-left:0;
-    padding-left:2px;
-   
- }
+
  .para3{
     background-color: linear-gradient(lightblue,white,lightblue);
     height:auto;
@@ -731,8 +720,8 @@ footer h4{
     padding-left:0;
 }
 .speaker img{
-    width:50px;
-    height:50px;
+    width:90px;
+    height:90px;
     column-gap:0;
     row-gap:0;
     margin-left:0;
@@ -742,7 +731,7 @@ footer h4{
 .speaker h3{
     font-size:14px;
     margin-left:0;
-    margin-left:0;
+    padding-left:2px;
 }
 .speaker h5{
     font-size:12px;
@@ -765,14 +754,11 @@ footer h4{
 .container ol,li{
     font-size:14px;
     margin-left:0;
-    padding-left:0;
+    padding-left:30px;
     padding-right:0;
     width:50%;
 }
-.container{
-    column-gap:0;
-    row-gap:0;
-}
+
 .topic h3{
     font-size:20px;
 }
@@ -781,25 +767,32 @@ footer h4{
     height:300px;
 }
 .eleven img{
-      width:60px;
-      height:60px;
+      width:90px;
+      height:90px;
       margin-left:0px;
       padding-left:0;
+      
 }
-.name h3{
- font-size:17px;
- margin-left:7px;
- padding-left:0;
-}
-.name2 h2{
-    font-size:14px;
+.name li{
+    font-size:17px;
     margin-left:0;
     padding-left:0;
-
-}
-
+    margin-right:0;
+    padding-right:0;
+    column-gap:0;
+    row-gap:0;
    
-
+}
+.name2 li{
+    font-size:10px;
+    margin-left:0;
+    padding-left:0;
+    margin-right:0;
+    padding-right:0;
+    column-gap:0;
+    row-gap:0;
+    
+}
 button{
     font-size:10px;
     padding-top:1px;
@@ -877,7 +870,30 @@ button{
 .last2 a,.last3 h4,.last4 h3{
     font-size:12px;
 }
+.navbar ul,.navbar li,.navbar a{
+    display:grid;
+    background-color:white;
+    width:100%;
+    height:auto;
+    grid-template-columns: auto;
+    padding-bottom:1px;
+    padding-top:18px;
+    text-align:center;
+    margin-left:0;
+    padding-left:0;
+    margin-top:10px;
+} 
+.navbar {
+    position:absolute;
+}
 
+a:hover{
+    font-style: italic;
+    background-color:rgb(4, 79, 154);
+    margin-left:0;
+    width:100%;
+    color:white;
+}
 
 }
    
