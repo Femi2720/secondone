@@ -679,11 +679,13 @@ footer h4{
         }
         .four p{
             margin-top:45px;
+            width:auto;
         }
         .four p{
             font-size:12px;
             padding-top:1px;
             padding-bottom:1px;
+            position:fixed;
         }
 
        .sponsor1,.sp1 h2,.sp1 img,.about1 img,.about1 h2{
