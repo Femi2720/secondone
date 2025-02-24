@@ -241,20 +241,13 @@ h2{
       grid-template-columns: auto auto auto;
       column-gap:5px;
       row-gap:5px;
-     padding-left:30px;
-      padding-top:40px;
-      
-
  }
  .para2 img{
-    border-radius: 50%;
-    padding-top:0;
-    padding-bottom:20%;
-    margin-top:0;
-    padding-left:30px;
-   
+    padding-bottom:30px;
+    margin-left:80px;
+    padding-top:30px;
+    border-radius:50%;
  }
-
 
 @keyframes move{
     from{
@@ -349,85 +342,19 @@ h2{
     background-image:linear-gradient(white,rgb(113, 166, 183),white);
     height:510px;
     width:auto;
-   
-    
-   
- }
-
- 
- .last1 {
-    display:flex;
-    margin-left:30px;
-    
-  
-   
 }
 
- .last1 img{ 
-    margin-left:20px;
-    width:30px;
-    height:30px;
-    padding-right:10px;
-    margin-top:37%;
-
- }
- 
- 
- 
- .last2 a{
-    display:flex;
-    flex-flow: column;
-    color:rgb(6, 6, 77);
-    font-family: serif;
-    font-size: 20px;
-    font-weight: 200;
-    padding-bottom:0px;
-    margin-left:0;
-    padding-left:0;
-    margin-top:50px;
-    padding-top:10px;
-}
-.last2 h5{
-    font-size:25px;
-    margin-top:0;
-    margin-right:50%;
-}
-.last3 h5{
-    font-size:25px;
-    margin-right:26%;
-    padding-left:60px;
-    margin-top:0%;
-}
-.last3 h4{
-    font-size:20px;
-    font-family: serif;
-    color:rgb(6, 6, 77);
-    font-weight:200;
-    margin-right:40%;
-    padding-top:35px;
-    padding-bottom: 10px;
-    
-}
-.last4 h3{
-    color:rgb(4, 4, 66);
-    padding-top:20px;
-    font-weight:200;
-    font-size:20px;
-    margin-top:20px;
-    margin-right:57%;
-   
-}
-.lasty{
+ .lasty img,.lasty ol,.lasty li{
     display:grid;
-    grid-template-columns: auto auto auto auto;
-    row-gap: 2px;
-    column-gap:2px;
-    margin-top:0;
-
-}
-.last1,.last2,.last2{
-    margin-top:0;
-}
+    grid-template-columns: auto auto auto auto auto;
+    font-size:20px;
+    column-gap:3px;
+    row-gap:3px;
+    margin-left:0;
+    padding-top:30px;
+    color:black
+ }
+ 
 footer h3,h4{
     font-weight:200;
     
@@ -669,9 +596,11 @@ footer h4{
 .onto{
     position:absolute;
 }
-       .sponsor1,.sp1 h2,.sp1 img,.about1 img,.about1 h2{
-             display:none;
+       
+.about1 img,.sp1 img,.sponsor1 img{
+    margin-top:450px;
 }
+
       .sponsor2 h3{
         font-size:22px;
         margin-top:85px;
@@ -754,7 +683,7 @@ footer h4{
 .container ol,li{
     font-size:14px;
     margin-left:0;
-    padding-left:30px;
+    padding-left:40px;
     padding-right:0;
     width:50%;
 }
@@ -779,19 +708,10 @@ footer h4{
     padding-left:0;
     margin-right:0;
     padding-right:0;
-    column-gap:0;
-    row-gap:0;
-   
+    
 }
 .name2 li{
-    font-size:10px;
-    margin-left:0;
-    padding-left:0;
-    margin-right:0;
-    padding-right:0;
-    column-gap:0;
-    row-gap:0;
-    
+   display:none;
 }
 button{
     font-size:10px;
@@ -820,10 +740,9 @@ button{
     margin-top:160px;
 }
 .nine img,.ten img{
-      width:90px;
+      width:140px;
       height:200px;
       
-
 }
 .nine h6,.ten h6{
       font-size:14px;
@@ -845,34 +764,29 @@ button{
     padding-top:70px;
 }
 .para2 img{
-    margin-left:0;
-    padding-bottom:0;
-    width:70px;
-    height:70px;
+    margin-left:20px;
+    width:80px;
+    height:80px;
     padding-top:30px;
-    padding-bottom:0;
+    padding-bottom:20px;
 }
-.last1,.last2,.last3{
-    display:grid;
-    grid-template-rows: auto auto auto;
-    margin-left:0;
-    column-gap:0;
-    row-gap:0;
-    padding-top:0;
-    padding-bottom:0;
-    padding-left:2px;
-}
-.last2 h5,.last3 h5,.last4 h5{
-    font-size:15px;
-    padding-left:0;
-    padding-right:0;
-}
-.last2 a,.last3 h4,.last4 h3{
+.lasty ol,.lasty li,.lasty img{
     font-size:12px;
+    padding-left:0;
+    color:black;
+    margin-left:0;
+    column-gap: 0;
+    row-gap: 0;
 }
+.lasty img{
+    height:30px;
+    width:30px;
+}
+
+
 .navbar ul,.navbar li,.navbar a{
     display:grid;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     width:100%;
     height:auto;
     grid-template-columns: auto;
@@ -889,10 +803,13 @@ button{
 
 a:hover{
     font-style: italic;
-    background-color:rgb(4, 79, 154);
+    background-color:rgb(12, 12, 114);
     margin-left:0;
     width:100%;
-    color:white;
+    color:rgb(245, 245, 248);
+}
+.four img{
+    margin-top:350px;
 }
 
 }
